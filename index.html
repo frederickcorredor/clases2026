@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Frederick Corredor — Desarrollador Web | HTML • CSS • JS • WordPress</title>
+  <meta name="description" content="Soy Frederick Corredor, desarrollador web front‑end. Creo sitios únicos, rápidos, responsivos y optimizados para SEO con HTML, CSS, JavaScript y WordPress." />
+  <meta name="theme-color" content="#0b0b0b" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="logodesarrollowebparaninos.png" type="image/webp">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Frederick Corredor — Desarrollador Web" />
+  <meta property="og:description" content="Webs únicas, rápidas y listas para convertir: HTML, CSS, JS, UX/UI, SEO, WordPress." />
+  <meta property="og:image" content="fredercorredordeveloperlogo.webp" />
+  <meta property="og:url" content="https://frederickcorredor.github.io/portafolio/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Schema.org (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Frederick Corredor",
+    "jobTitle": "Web Developer",
+    "url": "https://frederickcorredor.github.io/portafolio/",
+    "image": "frederickcorredorlogo.webp",
+    "knowsAbout": ["HTML", "CSS", "JavaScript", "WordPress", "UX", "UI", "SEO"],
+    "sameAs": ["#", "#"]
+  }
+
+    <!-- etiqueta analitics-->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M09GZ5HPH7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M09GZ5HPH7');
+</script>
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Inicio">
+        <img src="logodesarrollowebparaninos.png" alt="Logo Frederick Corredor" loading="lazy" />
+      </a>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="#servicios">Que aprenden a hacer</a></li>
+          <li><a href="#uxui">Lenguajes que aprenderá</a></li>
+          <li><a href="#animaciones">Fortalezas que adquiere</a></li>
+          <li><a href="#sobremi">Sobre mi</a></li>
+          <li><a href="#contacto" class="tag">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="burger" id="burger" aria-label="Abrir menú"><span></span></button>
+    </div>
+    <div class="menu-panel" id="menu">
+      <a href="#servicios">Que aprenden a hacer</a>
+      <a href="#uxui">Lenguajes que aprenderá</a>
+      <a href="#animaciones">Fortalezas que adquiere</a>
+      <a href="#sobremi">Sobre mi</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </header>
+
+  <!-- HERO (AIDA: Atención) -->
+  <section class="hero section" aria-label="Hero" id="top">
+    <div class="spark" aria-hidden="true"></div>
+    <div class="container">
+      <div>
+        <span class="tag reveal">Desarrollo web para niños</span>
+        <h1 class="hero-title reveal" style="margin:.6rem 0 1rem">Desarrolla sus habilidades digitales desde temprana edad</h1>
+        <p class="hero-sub reveal">Aquí los niños no solo aprenden tecnología. Desarrollan confianza, pensamiento lógico y la seguridad de saber que pueden crear y resolver problemas, dentro y fuera del mundo digital.</p>
+        <div class="hero-cta reveal">
+          <a class="btn" href="#contacto">Agenda una clase gratuita</a>
+        </div>
+        <div class="stats reveal" style="margin-top:22px">
+          <div class="stat"><h3><span class="counter" data-to="72">0</span>/75</h3><div class="muted" style="font-size:14px;">Reseñas positivas</div><div class="bar"><span data-bar="92"></span></div></div>
+          <div class="stat"><h3><span class="counter" data-to="75" data-decimals="0">0</span></h3><div class="muted" style="font-size:14px;">Nuevos Programadores</div><div class="bar"><span data-bar="85"></span></div></div>
+          <div class="stat"><h3><span class="counter" data-to="6" data-decimals="0">0</span></h3><div class="muted" style="font-size:14px;">Años de Experiencia</div><div class="bar"><span data-bar="95"></span></div></div>
+        </div>
+      </div>
+
+      <img src="ninoportada.png" alt="Foto de perfil de Frederick Corredor" class="reveal fotoPerfil">
+      <div class="card reveal highlight">
+       <h3 style="margin-top:0;margin-bottom: 6px;">¿Cómo son las clases?</h3>
+<p>
+Son <strong>clases 1 a 1 en vivo y totalmente personalizadas</strong>, donde cada niño aprende a crear páginas web desde cero, paso a paso y a su ritmo.
+<br><br>
+<strong>No son videos grabados.</strong> Cada clase es interactiva, con acompañamiento constante, preguntas en tiempo real y práctica guiada.
+</p>
+<br>
+<p style="margin:0">
+Mientras aprenden HTML, CSS y JavaScript, desarrollan pensamiento lógico, concentración y la confianza de saber que pueden crear y resolver por sí mismos.
+</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS / Habilidades (AIDA: Interés) -->
+<section class="section" id="servicios">
+  <div class="container">
+    <h2 class="reveal">Lo que aprenden a crear</h2>
+    <p class="muted reveal">
+      No solo aprenden a programar. Aprenden a construir proyectos reales, pensados para funcionar bien, verse bien y resolver necesidades del mundo digital.
+    </p>
+
+    <div class="servicios-two-col">
+      
+      <div class="grid features">
+        <article class="card tilt reveal">
+          <h3>Landing Pages</h3>
+          <p>Páginas claras y bien estructuradas, donde aprenden a ordenar ideas y mostrar información de forma simple y efectiva.</p>
+        </article>
+
+        <article class="card tilt reveal">
+          <h3>Menús digitales</h3>
+          <p>Proyectos interactivos que les enseñan a pensar en el usuario, organizar contenido y hacerlo fácil de usar.</p>
+        </article>
+
+        <article class="card tilt reveal">
+          <h3>Páginas corporativas</h3>
+          <p>Sitios completos que desarrollan visión, estructura y responsabilidad al crear algo más grande y funcional.</p>
+        </article>
+
+        <article class="card tilt reveal">
+          <h3>Aplicaciones web</h3>
+          <p>Aplicaciones sencillas donde aprenden lógica, interacción y cómo hacer que una idea cobre vida.</p>
+        </article>
+
+        
+      </div>
+
+
+      <!-- DERECHA: stage 3D decorativo -->
+      <aside class="code-stage reveal" aria-hidden="true">
+
+        
+
+        <!-- Tarjeta 4 -->
+        <section class="code-card c4 float" style="--ry:-30deg; --z:80px">
+          <div class="dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+          <pre class="code"><span class="c">// styles.css</span>
+          .container{ display:grid; gap:<span class="n">16px</span>; place-items:center; }</pre>
+        </section>
+
+        <!-- Tarjeta 5 -->
+        <section class="code-card c5 float reveal" style="--ry:34deg; --z:120px">
+          <div class="dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+          <pre class="code"><span class="c">// utils.ts</span>
+          <span class="k">export</span> <span class="k">const</span> delay=(ms)=> <span class="k">new</span> <span class="fn">Promise</span>(r=> <span class="fn">setTimeout</span>(r,ms))</pre>
+        </section>
+
+        <!-- Tarjeta 6 -->
+        <section class="code-card c6 float reveal" style="--ry:-23deg; --z:75px">
+          <div class="dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+          <pre class="code"><span class="c">// index.html</span>
+          &lt;<span class="k">div</span> class=<span class="s">"app"</span>&gt;Hola Mundo&lt;/<span class="k">div</span>&gt;</pre>
+        </section>
+      </aside>
+    </div>
+    <!-- /NUEVO -->
+  </div>
+</section>
+
+<section class="container" style="display: flex;flex-wrap: wrap;align-content: center;justify-content: center;align-items: center;">
+  <p class="cta-text reveal">
+Las clases son personalizadas, en vivo y con cupos limitados. Si buscas algo más que solo tiempo frente a una pantalla, este es el momento. <br><br>
+</p>
+<a href="#contacto" class="btn primary reveal">Agendar una clase gratuita</a>
+</section>
+
+
+
+
+
+  <!-- 3D Carousel (Portfolio Destacado) -->
+  <section class="section" id="portfolio-3d" aria-label="Carrusel 3D de proyectos">
+      <div class="container contcarrusel" >
+        <div class="textcarusel">
+          <h2 class="reveal">Así lucen algunas webs de mis alumnos</h2>
+        </div>
+
+
+        <div class="carousel3d-container reveal" role="region" aria-roledescription="carrusel" aria-label="Proyectos en 3D">
+          <button class="carousel3d-nav left" aria-label="Anterior" title="Anterior" type="button">⟵</button>
+          <div class="carousel3d-viewport">
+            <div class="carousel3d" aria-live="polite">
+              <div class="carousel3d-item"><img src="paradises.webp" alt="Proyecto 1" loading="lazy"></div>
+              <div class="carousel3d-item"><img src="web1.png" alt="Proyecto 2" loading="lazy"></div>
+              <div class="carousel3d-item"><img src="web4.png" alt="Proyecto 3" loading="lazy"></div>
+              <div class="carousel3d-item"><img src="web2.png" alt="Proyecto 4" loading="lazy"></div>
+              <div class="carousel3d-item"><img src="thermo.webp" alt="Proyecto 5" loading="lazy"></div>
+              <div class="carousel3d-item"><img src="web3.png" alt="Proyecto 6" loading="lazy"></div>
+            </div>
+          </div>
+          <button class="carousel3d-nav right" aria-label="Siguiente" title="Siguiente" type="button">⟶</button>
+        </div>
+        <p><strong>Tu hijo podrá hacer un carrusel 3D como este.</strong></p>
+      </div>
+  </section>
+
+
+  <!-- UX/UI -->
+  <section class="section" id="uxui">
+    <div class="container">
+      <h2 class="reveal">Lenguajes que aprenderá</h2>
+      <p class="muted reveal" style="text-align: center;">
+      Tu hijo aprenderá de manera didactica y con ejercicios practicos sencillos los lenguajes primordiales para el desarrollo de páginas web. <br><br> 
+      </p>
+      <div class="compare">
+        <div class="card reveal">
+          <h3>HTML</h3>
+          <ul>
+            <li>Estructura de una web</li>
+            <li>Elementos de una página web</li>
+            <li>Uso de las etiquetas de HTML</li>
+          </ul>
+          <img src="html.webp" alt="" style="position: absolute; top: 6px; right: 0px;width: 70px;">
+        </div>
+        <div class="card reveal">
+          <h3>CSS</h3>
+          <ul>
+            <li>Estructura de CSS</li>
+            <li>Aplicaciones del CSS para modificar elementos de una web</li>
+            <li>Animaciones y transiciones de elementos</li>
+          </ul>
+          <img src="css.webp" alt="" style="position: absolute; top: 6px; right: 0px;width: 70px;">
+        </div>
+        <div class="card reveal">
+          <h3>JavaScript</h3>
+          <ul>
+            <li>Usos y aplicaciones de JavaScript</li>
+            <li>Programar interacciones modificaciones y funcionalidades de una web</li>
+            <li>Creación de flujos dinamicos interactivos</li>
+          </ul>
+          <img src="java.webp" alt="" style="position: absolute; top: 6px; right: 0px;width: 70px;">
+        </div>
+      </div>
+              
+      </div>
+    </div>
+  </section>
+
+  <!-- Animaciones -->
+  <section class="section" id="animaciones">
+    <div class="container">
+      <h2 class="reveal">Resultados <br>(más allá de “programar”)</h2>
+      <p class="muted reveal">A lo largo del proceso, los niños desarrollan pensamiento lógico, aprenden a resolver problemas con calma y a no rendirse cuando algo no sale a la primera. Cada intento los ayuda a pensar mejor, a ganar paciencia y a fortalecer habilidades que les sirven en el estudio, en la vida diaria y en su futuro.</p>
+      <div class="servicios-two-col">
+        <div class="grid features">
+          <div class="card tilt reveal"><strong>Aprende a crear tecnología:</strong> <br> Entiende cómo funcionan las páginas web y construye sus propios proyectos desde cero.</div>
+          <div class="card tilt reveal"><strong>Desarrolla pensamiento lógico y ordenado:</strong> <br> Aprende a pensar paso a paso, resolver problemas y encontrar soluciones por sí mismo.</div>
+          <div class="card tilt reveal"><strong>Gana confianza y autoestima:</strong> <br> Ver sus ideas hechas realidad refuerza la seguridad en lo que es capaz de lograr.</div>
+          <div class="card tilt reveal"><strong>Aprende a aprender:</strong> <br> Descubre que equivocarse es parte del proceso y que siempre puede mejorar.</div>
+        </div>
+        <div style="display:flex; justify-content:center; align-items:center;" id="contacto">
+          <img src="logodesarrollowebparaninos.png" alt="" id="animacionEscudo" class="reveal" >
+        </div>
+      </div>      
+
+    </div>
+  </section>
+  <section class="section" >
+    <div class="container">
+      <div class="flex">
+        <div class="reveal" style="text-align: center;">
+          <h2>Cupos limitados</h2>
+          <p class="muted">Reserva para el próximo periodo y elije el horario que mejor se adapte a tus necesidades </p>
+          
+          
+          <a class="btn" href="https://wa.link/m6v5m1" aria-label="Escríbeme por WhatsApp" style="margin: 16px;" target="_blank">Reserva por WhatsApp</a>
+        </div>
+
+        
+       
+      </div>
+    </div>
+  </section>
+  
+  <!-- Rendimiento -->
+  <section class="section" id="rendimiento">
+    <div class="container">
+
+      <div class="kpis" id="kpis-rendimiento">
+  <article class="kpi card reveal">
+    <div class="kpi-num">
+      <span class="counter" data-to="6" data-decimals="0">0</span><small>Cupos Disponibles</small>
+    </div>
+    
+    <div class="bar"><span data-bar="40"></span></div>
+    <div style="text-align: right;">10 Cupos Totales</div>
+  </article>
+
+  
+</div>
+        </div>
+      </div>      
+    </div>
+
+    
+  </section>
+
+
+
+
+
+  
+
+
+    <!-- Testimonios (Carrusel) -->
+  <section class="section" id="testimonios">
+    <div class="container">
+      <h2 class="reveal">Padres Felices</h2>
+      <div class="carousel reveal" role="region" aria-label="Carrusel de testimonios">
+        <div class="track" id="track" aria-live="polite">
+         <div class="slide">
+  <blockquote>
+    “Antes solo quería usar el computador para jugar. Ahora entiende que puede crear cosas con él. Verlo concentrado y motivado nos sorprendió mucho.”
+  </blockquote>
+  <footer>— Madre de alumno, 12 años</footer>
+</div>
+
+<div class="slide">
+  <blockquote>
+    “Mi hijo se frustraba rápido cuando algo no le salía. Con las clases aprendió a tener paciencia, a intentar de nuevo y a confiar más en lo que puede lograr.”
+  </blockquote>
+  <footer>— Padre de alumno</footer>
+</div>
+
+<div class="slide">
+  <blockquote>
+    “Pasó de solo consumir internet a preguntarse cómo funcionan las páginas. Ahora nos explica lo que hace y se siente orgulloso de sus proyectos.”
+  </blockquote>
+  <footer>— Madre de alumno</footer>
+</div>
+
+<div class="slide">
+  <blockquote>
+    “Notamos un cambio en su forma de pensar. Está más ordenado, más atento y con ganas de aprender. No son solo clases de tecnología, es aprendizaje real.”
+  </blockquote>
+  <footer>— Padre de alumno, 11 años</footer>
+</div>
+
+      </div>
+              <div class="controls">
+          <button id="prev" aria-label="Anterior">⟵</button>
+          <button id="next" aria-label="Siguiente">⟶</button>
+        </div>
+    </div>
+  </section>
+
+    <section class="hero section" aria-label="Hero">
+    <div class="spark" aria-hidden="true"></div>
+    <div class="container">
+      <div id="sobremi">
+        
+        <h3 class="hero-title reveal" style="margin:.6rem 0 1rem">Conoce al profesor</h3>
+        <span class="tag reveal">Hola soy Frederick Corredor</span>
+        <p class="hero-sub reveal" style="max-width: 80%;">Desarrollador web y formador. Creo profundamente que cuando un niño entiende cómo funciona la tecnología, también descubre que es capaz de crear, pensar y resolver por sí mismo. <br><br> </p>
+         <p>En cada clase acompaño de forma personalizada, con paciencia y compromiso, para que cada alumno gane confianza y construya bases sólidas que le sirvan dentro y fuera del mundo digital.</p>
+        <div class="hero-cta reveal" style="display: flex;flex-wrap: wrap;justify-content: center;">
+          <a class="btn" href="#contacto">Agenda una clase gratuita</a>
+        </div>
+        
+      </div>
+
+      <img src="frederickcorredor.webp" alt="Foto de perfil de Frederick Corredor" class="reveal fotoPerfil">
+    </div>
+    </section>
+
+<script src="script.js" defer></script>
+</body>
+</html>
