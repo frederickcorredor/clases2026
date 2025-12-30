@@ -70,7 +70,7 @@ body.no-scroll { overflow: hidden; }
 
 /* Hero */
 .hero{position:relative; overflow:hidden; padding-top:clamp(50px,3vw,90px)}
-.hero .container{display:grid; grid-template-columns: 1.2fr .8fr; align-items:end; gap:clamp(16px,4vw,36px);position: relative;}
+.hero .container{display:grid; grid-template-columns: 1.2fr .8fr; align-items:end; gap:clamp(8px,2vw,36px);position: relative;}
 .hero-title{font-size: clamp(24px, 6vw, 40px); letter-spacing:.3px; line-height:1.06; font-weight:900; text-wrap: balance;}
 .hero-sub{font-size:clamp(16px,2.4vw,20px); color:var(--muted)}
 .hero-cta{display:flex; align-items:center; gap:12px; margin-top:18px}
