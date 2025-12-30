@@ -22,7 +22,7 @@ h2{text-align: center;padding: 16px;}
 .section{padding: clamp(45px, 10vw, 45px) 0}
 .grid{display:grid; gap:clamp(16px,2vw,28px)}
 .flex{display: flex;flex-wrap: wrap; justify-content: center;align-items: center; gap: 16px;  div{min-width: 360px;} form{min-width: 380px;}}
-.btn{display:inline-flex; align-items:center; gap:.6rem; padding:.95rem 1rem; border-radius:14px; background:linear-gradient(135deg,white,rgba(255, 255, 255, 0.781)); color:#02515f; font-weight:700; text-decoration:none; box-shadow:var(--shadow); border:0; cursor:pointer; justify-content: center;}
+.btn{display:inline-flex; align-items:center; gap:.6rem; padding:.95rem 1rem; border-radius:14px; background:linear-gradient(135deg,rgb(2, 197, 90),rgba(2, 112, 35, 0.781)); color:#ffffff; font-weight:700; text-decoration:none; box-shadow:var(--shadow); border:2px solid white; cursor:pointer; justify-content: center;-webkit-animation: heartbeat 1.5s ease-in-out infinite both;animation: heartbeat 1.5s ease-in-out infinite both;}
 .btn.secondary{background:#15181e; color:var(--ink); border:1px solid rgba(255,255,255,.08)}
 .btn:disabled { opacity:.55; cursor:not-allowed; filter:grayscale(.2); }
 .tag{display:inline-block; padding:.35rem .7rem; border-radius:999px; background:rgba(255,215,0,.14); font-weight:600; border:1px solid rgba(255,215,0,.25)}
@@ -409,4 +409,74 @@ input,textarea{margin-top:6px; margin-bottom:16px; padding:12px; border-radius:1
 .code-stage .float{ animation: floaty 6s ease-in-out infinite; }
 @media (prefers-reduced-motion: reduce){
   .code-stage .float{ animation: none; }
+}
+
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
 }
