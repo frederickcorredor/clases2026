@@ -126,7 +126,7 @@ table tr.featured td{background:linear-gradient(350deg,rgba(255,215,0,.06),trans
 .features{grid-template-columns:repeat(auto-fit,minmax(1fr));gap: 16px; padding: 16px;}
 .tilt{transform-style:preserve-3d; transition: transform .15s;background-size:280% 280% !important;transition:background-position .8s ease;background:linear-gradient(120deg,#ffffff, #d1e2f8,var(--gold), var(--gold-2));transition: .8s;}
 .tilt:hover{ box-shadow: 0 8px 28px rgba(255, 215, 0, .18); transform: translateY(-10px); }
-@media(max-width:650px){.features{padding: 0px;} .btn{min-width: 60vw;}}
+@media(max-width:650px){.features{padding: 0px;} .btn{min-width: 60vw; text-align: center;}}
 
 
 
