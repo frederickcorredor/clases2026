@@ -85,7 +85,7 @@ if (prefersReduced) {
         obs.unobserve(e.target);
       }
     });
-  }, { threshold: 0.55 });
+  }, { threshold: 0.25 });
   revealEls.forEach(el => io.observe(el));
 }
 
