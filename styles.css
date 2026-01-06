@@ -507,7 +507,7 @@ input,textarea{margin-top:6px; margin-bottom:16px; padding:12px; border-radius:1
     }
 
     .mes{
-      background: var(--card);
+      background: #3877c8;
       border-radius: 16px;
       margin-bottom: 20px;
       box-shadow: 0 10px 30px rgba(15,23,42,.08);
