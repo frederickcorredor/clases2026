@@ -347,3 +347,12 @@ if (form && submitBtn) {
   });
 }
 
+
+document.querySelectorAll('.mes-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const mes = header.parentElement;
+      const content = mes.querySelector('.mes-content');
+      mes.classList.toggle('active');
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    });
+  });
