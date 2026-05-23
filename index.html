@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programación Para Niños</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600&family=Bebas+Neue&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">PROG<em>&lt;</em>NIÑOS<em>/&gt;</em></div>
+  <ul class="nav-links">
+    <li><a href="#cursos">Cursos</a></li>
+    <li><a href="#precios">Precio</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#testimonios">Testimonios</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <a class="nav-cta" href="https://wa.me/573507687220?text=Hola%20Frederick%2C%20quiero%20inscribir%20a%20mi%20hijo%2Fa%20en%20Programaci%C3%B3n%20Para%20Ni%C3%B1os" target="_blank">Inscríbete</a>
+</nav>
+
+<!-- HERO (página 2) -->
+<section class="hero" id="inicio">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-badge">
+        <span>&lt;/&gt;</span>
+        Inscripciones Abiertas
+      </div>
+      <h1>
+        TU HIJO PUEDE
+        <span class="highlight">CREAR</span>
+        <span class="cyan">VIDEOJUEGOS</span>
+        <span class="cyan2">Y PÁGINAS WEB</span>
+      </h1>
+    </div>
+    <div class="hero-right">
+      <div class="img-placeholder hero-main-img" id="img-hero-main">
+        <img src="ninopc.webp" alt="">
+      </div>
+      <div class="imagenescontenedores">
+        <img src="modelado3d.webp" alt="" id="model">
+        <img src="paginasweb.webp" alt="" id="paginas">
+        <img src="videojuegos.webp" alt="" id="juegos">
+      </div>
+    </div>
+  </div>
+  <div class="hero-subtitle">
+    <p>NO ES SOLO PROGRAMACIÓN, <br> <span>SON HABILIDADES PARA LA VIDA</span></p>
+  </div>
+</section>
+
+<!-- PROB / SOL (página 2) -->
+<section class="prob-sol">
+  <div class="prob-sol-inner">
+    <div class="problem-box">
+      <div class="prob-character" id="img-prob-char">
+        <img src="elproblema.webp" alt="Niño problema">
+      </div>
+      <div class="prob-content">
+        <h2>⚠️ EL PROBLEMA</h2>
+        <div class="problem-item">
+          <div class="x-icon">✕</div>
+          <span>Pasa horas frente a pantallas solo consumiendo contenido.</span>
+        </div>
+        <div class="problem-item">
+          <div class="x-icon">✕</div>
+          <span>No desarrolla habilidades útiles para su futuro.</span>
+        </div>
+        <div class="problem-item">
+          <div class="x-icon">✕</div>
+          <span>Le cuesta concentrarse y resolver problemas.</span>
+        </div>
+      </div>
+    </div>
+    <div class="arrow-divider">➜</div>
+    <div class="solution-box">
+      <div class="solution-header"><h3>CON ESTE PROGRAMA DESARROLLA</h3></div>
+      <div>
+        <img src="cerebro.webp" alt="">
+        <h4>Lógica</h4>
+        <p>Resuelve problemas de forma inteligente.</p>
+      </div>
+      <div>
+        <img src="cohete.webp" alt="">
+        <h4>Creatividad</h4>
+        <p>Convierte ideas en proyectos reales.</p>
+      </div>
+      <div>
+        <img src="blanco.webp" alt="">
+        <h4>Concentración</h4>
+        <p>Mejora su enfoque y constancia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CURSOS -->
+<section id="cursos">
+  <div class="rv">
+    <div class="sec-label">Cursos disponibles</div>
+    <h2>Elige tu aventura</h2>
+    <p class="sec-sub">Cada curso está diseñado para que los niños aprendan creando proyectos reales desde el primer día.</p>
+  </div>
+  <div class="courses-grid">
+    <div class="cc rv" data-a="cyan">
+      <div class="cc-age">10–18 años</div>
+      <div class="cc-icon">🌐</div>
+      <span class="cc-tag">Desarrollo Web</span>
+      <h3 class="cc-title">HTML &amp; CSS Creativo</h3>
+      <p class="cc-desc">Diseña tu primera página web con animaciones, colores y tu estilo propio. Aprende HTML, CSS y JavaScript básico.</p>
+      <div class="cc-meta"><span>📅 12 semanas</span><span>👤 Individual</span></div>
+      <img src="pcsola.webp" alt="">
+    </div>
+    <div class="cc rv" data-a="pink">
+      <div class="cc-age">10–18 años</div>
+      <div class="cc-icon">🟥</div>
+      <span class="cc-tag">Roblox Studio</span>
+      <h3 class="cc-title">Programación en Roblox</h3>
+      <p class="cc-desc">Crea tus propios juegos en Roblox usando Lua. Construye mundos, personajes y mecánicas únicas.</p>
+      <div class="cc-meta"><span>📅 16 semanas</span><span>👤 Individual</span></div>
+      <img src="roblox.webp" alt="">
+    </div>
+    <div class="cc rv" data-a="yellow">
+      <div class="cc-age">12–18 años</div>
+      <div class="cc-icon">🎮</div>
+      <span class="cc-tag">Godot Engine</span>
+      <h3 class="cc-title">Videojuegos con Godot</h3>
+      <p class="cc-desc">Diseña y programa videojuegos 2D completos con Godot 4 y GDScript. Desde la idea hasta publicar tu juego.</p>
+      <div class="cc-meta"><span>📅 20 semanas</span><span>👤 Individual</span></div>
+      <img src="godot.webp" alt="">
+    </div>
+    <div class="cc rv" data-a="green">
+      <div class="cc-age">12–18 años</div>
+      <div class="cc-icon">🧊</div>
+      <span class="cc-tag">Blender 3D</span>
+      <h3 class="cc-title">Personajes en Blender</h3>
+      <p class="cc-desc">Modela, riggea y anima tus propios personajes 3D con Blender. Crea los héroes de tus propios videojuegos.</p>
+      <div class="cc-meta"><span>📅 16 semanas</span><span>👤 Individual</span></div>
+      <img src="blender.webp" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <div class="about-wrap">
+    <div class="rv">
+      <div class="sec-label">Sobre nosotros</div>
+      <h2>Enseñamos creando,<br>no memorizando</h2>
+      <p class="sec-sub">Somos desarrolladores apasionados por la educación. Cada clase es una aventura donde los niños resuelven retos reales.</p>
+      <div class="about-pts">
+        <div class="apt">
+          <span class="apt-icon">📅</span>
+          <div><div class="apt-t">2 clases en vivo por semana</div><div class="apt-d">Constancia sin agobiar. El ritmo ideal para aprender, practicar y recordar.</div></div>
+        </div>
+        <div class="apt">
+          <span class="apt-icon">👤</span>
+          <div><div class="apt-t">Clases 100% individuales</div><div class="apt-d">Tu hijo/a tiene al instructor completamente para sí. Sin distracciones, sin esperar turno.</div></div>
+        </div>
+        <div class="apt">
+          <span class="apt-icon">🏆</span>
+          <div><div class="apt-t">Instructor con experiencia real</div><div class="apt-d">Desarrollador web profesional con proyectos reales y formación pedagógica.</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="code-box rv">
+  <span style="display:block"><span class="cm">Conoce al Fundador 👨‍💻</span></span>
+  <span style="display:block">&nbsp;</span>
+
+  <span style="display:block">
+    <span class="kw">const</span> fundador = 
+    <span class="fn">"Frederick Corredor"</span>
+  </span>
+
+  <span style="display:block">
+    <span class="kw">const</span> profesion = 
+    <span class="str">"Desarrollador Web & Profesor de Programación"</span>
+  </span>
+
+  <span style="display:block">&nbsp;</span>
+
+  <span style="display:block">
+    <span class="kw">var</span> experiencia = 
+    <span class="num">10 + años</span>
+  </span>
+
+  <span style="display:block">
+    <span class="kw">var</span> alumnos = 
+    <span class="num">+100 estudiantes</span>
+  </span>
+
+  <span style="display:block">
+    <span class="kw">var</span> proyectos = 
+    <span class="num">Videojuegos, Apps y Páginas Web</span>
+  </span>
+
+  <span style="display:block">&nbsp;</span>
+
+  <span style="display:block">
+    <span class="kw">func</span> 
+    <span class="fn">enseñar_programacion</span>(alumno):
+  </span>
+
+  <span style="display:block">
+    &nbsp;&nbsp;<span class="kw">if</span> alumno.motivado:
+  </span>
+
+  <span style="display:block">
+    &nbsp;&nbsp;&nbsp;&nbsp;alumno.aprende(
+    <span class="str">"Lógica"</span>,
+    <span class="str">"Creatividad"</span>,
+    <span class="str">"Resolución de Problemas"</span>)
+  </span>
+
+  <span style="display:block">
+    &nbsp;&nbsp;&nbsp;&nbsp;alumno.crea(
+    <span class="str">"Videojuegos"</span>,
+    <span class="str">"Webs"</span>,
+    <span class="str">"Apps"</span>)
+  </span>
+
+  <span style="display:block">&nbsp;</span>
+
+  <span style="display:block">
+    <span class="kw">class</span> 
+    <span class="fn">Profesor</span>:
+  </span>
+
+  <span style="display:block">
+    &nbsp;&nbsp;✔ Clases personalizadas en vivo
+  </span>
+
+  <span style="display:block">
+    &nbsp;&nbsp;✔ Aprendizaje práctico y divertido
+  </span>
+
+  <span style="display:block">
+    &nbsp;&nbsp;✔ Experiencia real como programador
+  </span>
+
+  <span style="display:block">
+    &nbsp;&nbsp;✔ Enseñanza enfocada en resultados
+  </span>
+
+  <span style="display:block">&nbsp;</span>
+
+  <span style="display:block">
+    <span class="cm">
+      # La mejor inversión para el futuro de tu hijo 🚀
+    </span>
+  </span>
+</div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section id="testimonios" style="background:var(--dark2)">
+  <div class="rv" style="text-align:center;max-width:560px;margin:0 auto">
+    <div class="sec-label" style="justify-content:center">Testimonios</div>
+    <h2>Lo que dicen las familias</h2>
+  </div>
+  <div class="tg">
+    <div class="tc rv">
+      <div class="stars">★★★★★</div>
+      <p class="tc-text">Mi hijo de 10 años ya creó su primer juego en Roblox y se lo compartió a todos sus amigos. La emoción que tiene cada lunes esperando su clase es increíble.</p>
+      <div class="tc-author">
+        <div class="tc-av">MG</div>
+        <div><div class="tc-name">María González</div><div class="tc-role">Mamá de Sebastián, 10 años</div></div>
+      </div>
+    </div>
+    <div class="tc rv">
+      <div class="stars">★★★★★</div>
+      <p class="tc-text">Lo mejor es que la clase es solo para mi hija. El instructor sabe exactamente dónde está y qué necesita. Totalmente diferente a cualquier otro curso que probamos.</p>
+      <div class="tc-author">
+        <div class="tc-av">CA</div>
+        <div><div class="tc-name">Carlos Arteaga</div><div class="tc-role">Papá de Valeria, 13 años</div></div>
+      </div>
+    </div>
+    <div class="tc rv">
+      <div class="stars">★★★★★</div>
+      <p class="tc-text">Mi hija tomó el curso de Blender y ahora quiere estudiar diseño 3D. Las clases son súper dinámicas y el profesor es muy paciente con ella.</p>
+      <div class="tc-author">
+        <div class="tc-av">LR</div>
+        <div><div class="tc-name">Laura Rodríguez</div><div class="tc-role">Mamá de Isabela, 14 años</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRECIO -->
+<section id="precios">
+  <div class="rv" style="text-align:center;width: 100%;;margin:0 auto">
+    <div class="sec-label" style="justify-content:center">Precio</div>
+    <h2>Simple y transparente</h2>
+    <p class="sec-sub" style="margin:0 auto">Un solo precio para todos los cursos. Sin sorpresas, sin cobros extra.</p>
+  </div>
+  <div class="price-center">
+    <div class="price-card rv">
+      <div class="plan-name">Clase individual · 1 curso</div>
+      <div class="price-big">$180.000</div>
+      <div class="price-period">COP / mes · 8 clases al mes</div>
+      <ul class="pf">
+        <li>2 clases en vivo por semana</li>
+        <li>Clase 100% individual</li>
+        <li>Instructor dedicado solo para tu hijo/a</li>
+        <li>Horario flexible a tu medida</li>
+        <li>Avance personalizado sin presión grupal</li>
+        <li>Cancela cuando quieras</li>
+      </ul>
+      <a class="btn-wa" href="https://wa.me/573507687220?text=Hola%20Frederick%2C%20quiero%20inscribir%20a%20mi%20hijo%2Fa%20en%20Programaci%C3%B3n%20Para%20Ni%C3%B1os" target="_blank">Inscribirse por WhatsApp ▸</a>
+    </div>
+  </div>
+
+    <section class="comparison-section">
+
+      <div class="cmp-title rv">
+        <h3>¿Por qué elegirnos?</h3>
+        <p>Compara y elige la mejor opción para el futuro de tu hijo</p>
+      </div>
+
+      <!-- DESKTOP TABLE -->
+      <div class="cmp-table-wrap rv">
+        <table class="cmp-table">
+          <thead>
+            <tr>
+              <th class="cmp-th-feature">Características</th>
+              <th class="cmp-th-other">Kodland</th>
+              <th class="cmp-th-other">Creativos Digitales</th>
+              <th class="cmp-th-us">⚡ Prog&lt;Niños/&gt;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cmp-td-label">💰 Precio / mes</td>
+              <td class="cmp-td-other">$1.060.800+</td>
+              <td class="cmp-td-other">$159.000</td>
+              <td class="cmp-td-us cmp-price-big">$180.000</td>
+            </tr>
+            <tr>
+              <td class="cmp-td-label">📚 Clases al mes</td>
+              <td class="cmp-td-other">4–8 (grupo)</td>
+              <td class="cmp-td-other">4 (grupo)</td>
+              <td class="cmp-td-us">8 <span class="cmp-chip">DOBLE</span></td>
+            </tr>
+            <tr>
+              <td class="cmp-td-label">👨‍🏫 Modalidad</td>
+              <td class="cmp-td-other">Grupal</td>
+              <td class="cmp-td-other">Grupal</td>
+              <td class="cmp-td-us">1 a 1 <span class="cmp-chip">EXCLUSIVO</span></td>
+            </tr>
+            <tr>
+              <td class="cmp-td-label">💵 Precio por clase</td>
+              <td class="cmp-td-other">$33.000+</td>
+              <td class="cmp-td-other">$39.750</td>
+              <td class="cmp-td-us">$22.500 <span class="cmp-chip cmp-chip-pink">🔥 MEJOR</span></td>
+            </tr>
+            <tr>
+              <td class="cmp-td-label">🚀 Cursos disponibles</td>
+              <td class="cmp-td-other">Juegos y prog.</td>
+              <td class="cmp-td-other">Prog. básica</td>
+              <td class="cmp-td-us">HTML, Roblox, Godot, Blender</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- MOBILE CARDS -->
+      <div class="cmp-cards">
+        <div class="cmp-card cmp-card-other rv">
+          <div class="cmp-card-name">Kodland</div>
+          <div class="cmp-row"><span>💰 Precio/mes</span><strong>$1.060.800+</strong></div>
+          <div class="cmp-row"><span>📚 Clases/mes</span><strong>4–8 (grupo)</strong></div>
+          <div class="cmp-row"><span>👨‍🏫 Modalidad</span><strong>Grupal</strong></div>
+          <div class="cmp-row"><span>💵 Precio/clase</span><strong>$33.000+</strong></div>
+          <div class="cmp-row"><span>🚀 Cursos</span><strong>Juegos y prog.</strong></div>
+        </div>
+        <div class="cmp-card cmp-card-other rv">
+          <div class="cmp-card-name">Creativos Digitales</div>
+          <div class="cmp-row"><span>💰 Precio/mes</span><strong>$159.000</strong></div>
+          <div class="cmp-row"><span>📚 Clases/mes</span><strong>4 (grupo)</strong></div>
+          <div class="cmp-row"><span>👨‍🏫 Modalidad</span><strong>Grupal</strong></div>
+          <div class="cmp-row"><span>💵 Precio/clase</span><strong>$39.750</strong></div>
+          <div class="cmp-row"><span>🚀 Cursos</span><strong>Prog. básica</strong></div>
+        </div>
+        <div class="cmp-card cmp-card-us rv">
+          <div class="cmp-card-badge">⚡ MEJOR OPCIÓN</div>
+          <div class="cmp-card-name">Prog&lt;Niños/&gt;</div>
+          <div class="cmp-row cmp-row-us"><span>💰 Precio/mes</span><strong class="cmp-highlight-val">$180.000</strong></div>
+          <div class="cmp-row cmp-row-us"><span>📚 Clases/mes</span><strong>8 <span class="cmp-chip">DOBLE</span></strong></div>
+          <div class="cmp-row cmp-row-us"><span>👨‍🏫 Modalidad</span><strong>1 a 1 <span class="cmp-chip">EXCLUSIVO</span></strong></div>
+          <div class="cmp-row cmp-row-us"><span>💵 Precio/clase</span><strong>$22.500 <span class="cmp-chip cmp-chip-pink">🔥 MEJOR</span></strong></div>
+          <div class="cmp-row cmp-row-us"><span>🚀 Cursos</span><strong>HTML, Roblox, Godot, Blender</strong></div>
+        </div>
+      </div>
+
+      <div class="cmp-features rv">
+        <div class="cmp-feat">
+          <div class="cmp-feat-icon">🎯</div>
+          <h4>Atención Personalizada</h4>
+          <p>Clases 1 a 1 completamente en vivo.</p>
+        </div>
+        <div class="cmp-feat">
+          <div class="cmp-feat-icon">🧠</div>
+          <h4>Mayor Aprendizaje</h4>
+          <p>El doble de clases y avance real.</p>
+        </div>
+        <div class="cmp-feat">
+          <div class="cmp-feat-icon">💻</div>
+          <h4>Proyectos Reales</h4>
+          <p>Videojuegos, páginas web y más.</p>
+        </div>
+        <div class="cmp-feat">
+          <div class="cmp-feat-icon">🚀</div>
+          <h4>Futuro Tecnológico</h4>
+          <p>Habilidades modernas para el futuro.</p>
+        </div>
+      </div>
+
+      <div class="cmp-cta rv">
+        <a href="https://wa.me/573507687220?text=Hola%20Frederick%2C%20quiero%20mi%20clase%20gratis%20de%20Programaci%C3%B3n%20Para%20Ni%C3%B1os" target="_blank">
+          📲 CLASE GRATIS POR WHATSAPP
+        </a>
+      </div>
+
+    </section>
+
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="contact-wrap">
+    <div class="rv">
+      <div class="sec-label">Contacto</div>
+      <h2>¿Listo para empezar?</h2>
+      <p class="sec-sub">Escríbenos y te ayudamos a elegir el curso ideal según la edad e intereses de tu hijo/a.</p>
+      <div class="cinfo">
+        <div class="citem">
+          <span class="citem-icon">💬</span>
+          <div><div class="citem-lbl">WhatsApp</div><div class="citem-val">+57 350 768 7220</div></div>
+        </div>
+        <div class="citem">
+          <span class="citem-icon">📧</span>
+          <div><div class="citem-lbl">Email</div><div class="citem-val">frederickcorredor@gmail.com</div></div>
+        </div>
+        <div class="citem">
+          <span class="citem-icon">🕐</span>
+          <div><div class="citem-lbl">Horarios</div><div class="citem-val">Lun–Vie: 3pm–8pm · Sáb: 9am–2pm</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="rv">
+      <div class="form">
+        <div class="fg"><label class="flbl">Tu nombre</label><input class="fi-input" id="f-nombre" type="text" placeholder="Nombre completo"></div>
+        <div class="fg"><label class="flbl">Email</label><input class="fi-input" id="f-email" type="email" placeholder="correo@ejemplo.com"></div>
+        <div class="fg"><label class="flbl">Edad del niño/a</label><input class="fi-input" id="f-edad" type="number" placeholder="Ej: 11" min="7" max="16"></div>
+        <div class="fg">
+          <label class="flbl">Curso de interés</label>
+          <select class="fselect" id="f-curso">
+            <option value="">Selecciona un curso...</option>
+            <option>Desarrollo Web (HTML &amp; CSS)</option>
+            <option>Programación en Roblox</option>
+            <option>Videojuegos con Godot</option>
+            <option>Personajes en Blender</option>
+            <option>Aún no sé, necesito orientación</option>
+          </select>
+        </div>
+        <div class="fg"><label class="flbl">Mensaje (opcional)</label><textarea class="ftarea" id="f-msg" placeholder="Cuéntanos sobre tu hijo/a, sus intereses..."></textarea></div>
+        <button class="btn-send" id="btnEnviar">Enviar por WhatsApp ▸</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fl">PROG<em>&lt;</em>NIÑOS<em>/&gt;</em></div>
+  <div class="fc">© 2026 Programación Para Niños · Todos los derechos reservados</div>
+  <div class="flinks">
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    <a href="mailto:frederickcorredor@gmail.com">Email</a>
+    <a href="https://wa.me/573507687220" target="_blank">WhatsApp</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
